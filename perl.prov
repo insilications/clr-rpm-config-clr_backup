@@ -1,0 +1,8 @@
+#!/bin/sed -nf
+s|.*/usr/lib/perl5/?s?i?t?e?_?p?e?r?l?/5[0-9.]*/\(.*\).pm|perl(\1)|
+tx
+d
+:x
+s|[a-z0-9\_]*-linux/||
+s|/|::|g
+p

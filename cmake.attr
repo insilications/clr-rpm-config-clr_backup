@@ -1,0 +1,2 @@
+%__cmake_provides	%{_rpmconfigdir}/clr/cmake.prov
+%__cmake_path		^(/usr/lib(64)?|/usr/share)/.*(Config\.cmake|-config\.cmake)$
